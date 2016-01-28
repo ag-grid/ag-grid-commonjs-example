@@ -24,7 +24,7 @@
   },
   "homepage": "http://www.ag-grid.com/",
   "dependencies": {
-    "ag-grid": "file:../ag-grid"
+    "ag-grid": "3.2.2"
   },
   "devDependencies": {
     "browserify": "13.0.0",
