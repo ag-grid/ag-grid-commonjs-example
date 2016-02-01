@@ -10,11 +10,9 @@
     "url": "https://github.com/ceolter/ag-grid-commonjs-example.git"
   },
   "keywords": [
-    "web-components",
     "grid",
     "data",
     "table",
-    "angular",
     "commonjs"
   ],
   "author": "Niall Crosby <niall.crosby@gmail.com>",
