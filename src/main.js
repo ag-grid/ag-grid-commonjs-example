@@ -1,6 +1,6 @@
 var agGrid = require('ag-grid');
-require('../node_modules/ag-grid/dist/ag-grid.css');
-require('../node_modules/ag-grid/dist/theme-fresh.css');
+require('ag-grid/dist/styles/theme-fresh.css');
+require('ag-grid/dist/styles/ag-grid.css');
 
 var eGridContainer = document.querySelector('#gridContainer');
 
@@ -11,7 +11,7 @@ var gridOptions = {
         {displayName: 'Value 2', field: 'value2'}
     ],
     rowData: [],
-    onReady: function(params) {
+    onGridReady: function(params) {
         params.api.sizeColumnsToFit();
     }
 };
