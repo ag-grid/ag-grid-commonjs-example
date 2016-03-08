@@ -2,13 +2,16 @@ var agGrid = require('ag-grid');
 require('ag-grid/dist/styles/theme-fresh.css');
 require('ag-grid/dist/styles/ag-grid.css');
 
+// if you are not using ag-Grid Enterprise, then leave the following require out
+require('ag-grid-enterprise');
+
 var eGridContainer = document.querySelector('#gridContainer');
 
 var gridOptions = {
     columnDefs: [
-        {displayName: 'Record', field: 'recordNumber'},
-        {displayName: 'Value 1', field: 'value1'},
-        {displayName: 'Value 2', field: 'value2'}
+        {headerName: 'Record', field: 'recordNumber'},
+        {headerName: 'Value 1', field: 'value1'},
+        {headerName: 'Value 2', field: 'value2'}
     ],
     rowData: [],
     onGridReady: function(params) {

@@ -1,6 +1,6 @@
 {
   "name": "ag-grid-example-commonjs",
-  "version": "0.0.1",
+  "version": "4.0.0",
   "description": "ag-Grid CommonJS Example.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,7 +22,8 @@
   },
   "homepage": "http://www.ag-grid.com/",
   "dependencies": {
-    "ag-grid": "3.3.x"
+    "ag-grid": "4.0.x",
+    "ag-grid-enterprise": "4.0.x"
   },
   "devDependencies": {
     "browserify": "13.0.0",
