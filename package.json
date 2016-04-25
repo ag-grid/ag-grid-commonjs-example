@@ -1,6 +1,6 @@
 {
   "name": "ag-grid-example-commonjs",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "ag-Grid CommonJS Example.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
