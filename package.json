@@ -22,8 +22,8 @@
   },
   "homepage": "http://www.ag-grid.com/",
   "dependencies": {
-    "ag-grid": "4.0.x",
-    "ag-grid-enterprise": "4.0.x"
+    "ag-grid": "4.1.x",
+    "ag-grid-enterprise": "4.1.x"
   },
   "devDependencies": {
     "browserify": "13.0.0",
